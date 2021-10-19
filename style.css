@@ -1,0 +1,93 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.7);
+}
+.nav-link {
+  color: white !important;
+}
+
+.jumbotron {
+  padding-bottom: 6rem;
+  background-color: #6a6c70;
+  color: white;
+  background-image: url(img/gallery/1.jpg);
+  height: 25rem;
+}
+
+#about {
+  background-color: #171f30;
+  color: white;
+  padding-bottom: 0rem;
+  padding-top: 3rem;
+  /* background-image: url(img/background/1.jpg); */
+}
+
+#projects {
+  background-color: #6a6c70;
+  /* background-image: url(img/gallery/1.jpg); */
+  /* background-color: rgba(136, 120, 120, 0); */
+}
+
+.color-card {
+  padding-top: 1rem;
+  background-color: #223344;
+}
+.card-body {
+  background-color: #6a6c70;
+}
+
+.card-title,
+.card-text {
+  color: white;
+}
+
+.judul {
+  color: white;
+}
+
+#contact {
+  background-color: #6a6c70;
+  color: white;
+}
+
+.footer {
+  background-color: #171f30;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+#gallery {
+  background-color: #171f30;
+  color: white;
+}
+
+/* Desktop Version */
+@media (min-width: 999px) {
+  .nav-link {
+    color: white !important;
+  }
+
+  .nav-link:hover::after,
+  .navbar-brand:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #e08104;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
